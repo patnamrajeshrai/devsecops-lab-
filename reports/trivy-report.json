@@ -1,0 +1,39 @@
+{
+  "SchemaVersion": 2,
+  "Trivy": {
+    "Version": "0.76.1"
+  },
+  "ReportID": "01a18c48-47b6-7dd3-a658-65ff08baa400",
+  "CreatedAt": "2026-10-30T10:08:29.622907407Z",
+  "ArtifactID": "sha256:889551e7d2a50d87f7d31a5943aefe1ea4cfbb983e66288fe94f7af5d89c5262",
+  "ArtifactName": ".",
+  "ArtifactType": "repository",
+  "Metadata": {
+    "RepoURL": "git@github.com:patnamrajeshrai/devsecops-lab-.git",
+    "Branch": "main",
+    "Commit": "fb5bd135694211e2ec05267fa62b6a95361e2410",
+    "CommitMsg": "Add Git ignore rules and hello script",
+    "Author": "Rajesh \u003cpatnamrajeshrai@gmail.com\u003e",
+    "Committer": "Rajesh \u003cpatnamrajeshrai@gmail.com\u003e"
+  },
+  "Results": [
+    {
+      "Target": "java-app/pom.xml",
+      "Class": "lang-pkgs",
+      "Type": "pom",
+      "Packages": [
+        {
+          "ID": "com.example:devsecops-demo:1.0.0::e57dc275",
+          "Name": "com.example:devsecops-demo",
+          "Identifier": {
+            "PURL": "pkg:maven/com.example/devsecops-demo@1.0.0",
+            "UID": "a51ef81c65b164b7"
+          },
+          "Version": "1.0.0",
+          "Relationship": "root",
+          "AnalyzedBy": "pom"
+        }
+      ]
+    }
+  ]
+}

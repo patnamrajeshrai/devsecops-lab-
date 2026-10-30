@@ -1,0 +1,4 @@
+.git
+target/*
+!target/devsecops-demo-1.0.0.jar
+*.log
